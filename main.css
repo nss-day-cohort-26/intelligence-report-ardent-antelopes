@@ -103,3 +103,11 @@ footer {
   margin-left: 35px;
   margin-top: 25px;
 }
+
+#mugshot {
+  text-align: center;
+ }
+ 
+ img {
+  width: 20vw;
+ }
