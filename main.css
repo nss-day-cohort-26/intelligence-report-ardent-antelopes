@@ -76,9 +76,10 @@ a:hover {
     color: firebrick;
 }
 
-color: tan;
+/* color: tan;
 
-}
+} */
+
 footer {
     height: 225px;
     width: 101.2%;
@@ -88,7 +89,6 @@ footer {
     position: relative;
     top: 20px;
     right: 10px;
-    ;
 }
 #footerDiv {
     display: flex;
