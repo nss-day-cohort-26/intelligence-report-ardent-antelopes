@@ -5,6 +5,8 @@
 body {
     background-color: tan;
     font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
 }
 
 body::after {
@@ -72,10 +74,12 @@ a:visited {
     color: tan;
 }
 
+
+
 @media (max-width: 480px) {
 
   nav {
-    height: 75px;
+    height: 80px;
   }
   
   nav ul {
@@ -127,14 +131,10 @@ a:hover {
 } */
 
 footer {
-    height: 225px;
-    width: 101.2%;
-    margin: 0px;
-    margin-top: 75px;
+    height: 250px;
+    width: 100vw;
     background-color: olive;
-    position: relative;
-    top: 20px;
-    right: 10px;
+    position: static;
 }
 #footerDiv {
     display: flex;
@@ -155,6 +155,51 @@ footer {
 #mugshot {
     text-align: center;
 }
-img {
+#mugshot img {
   width: 20vw;
+}
+
+@media (max-width: 930px){
+    #footerImages img {
+        display: none;
+    }
+    #footerLinks {
+        width: 90%;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 310px){
+    #footerLinks{
+        width: 100%;
+        margin: 8px;
+    }
+}
+
+@media (max-width: 280px){
+    footer{
+        font-size: .8em;
+    }
+}
+
+@media(max-width: 660px){
+    nav{
+        height: 80px;
+    }
+}
+
+@media(max-width: 410px){
+    nav{
+        font-size: .8em;
+    }
+}
+
+@media(max-width: 240px){
+    nav {
+        height: 90px;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+    }
 }
