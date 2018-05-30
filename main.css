@@ -53,3 +53,11 @@ a {
 a:visited {
   color: tan;
 }
+
+#mugshot {
+  text-align: center;
+}
+
+img {
+  width: 20vw;
+}
