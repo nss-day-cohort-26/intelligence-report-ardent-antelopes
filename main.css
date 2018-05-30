@@ -7,6 +7,26 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+body::after {
+  content: "";
+  background-image: url("top-secret.jpg");
+  position: fixed;
+  background-size: 20%;
+  /* background-repeat: no-repeat; */
+  background-position: center center;
+  opacity: .05;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  
+
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px; */
+}
+
 article {
   margin: .5em 2em;
   padding: 1.5em;
@@ -120,3 +140,10 @@ a:visited {
     color: white;
   }
 } */
+#mugshot {
+  text-align: center;
+}
+
+img {
+  width: 20vw;
+}
