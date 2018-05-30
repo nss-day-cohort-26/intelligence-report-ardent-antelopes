@@ -72,6 +72,52 @@ a:visited {
     color: tan;
 }
 
+@media (max-width: 480px) {
+
+  nav {
+    height: 75px;
+  }
+  
+  nav ul {
+    margin: 0;
+    height: 100%;
+    padding: 10px;
+
+  }
+
+  nav ul li {
+    font-size: 1.25em;
+  }
+    
+  article {
+      margin: 4.5em 0.1em 0.1em;
+      padding: 0;
+  }
+
+  img {
+    margin: auto;
+    width: 90%
+  }
+
+  section {
+    margin: 4em 0;
+  }
+
+  #mugshot {
+    margin-top: 0;
+  }
+
+  #mugshot img {
+    margin: auto;
+  }
+
+
+}
+
+
+#mugshot {
+  text-align: center;
+}
 a:hover {
     color: firebrick;
 }
@@ -110,5 +156,5 @@ footer {
     text-align: center;
 }
 img {
-    width: 20vw;
+  width: 20vw;
 }
