@@ -56,9 +56,13 @@ a:visited {
 
 footer {
   height: 225px;
+  width: 101.2%;
   margin: 0px;
   margin-top: 75px;
   background-color: olive;
+  position: relative;
+  top: 20px;
+  right: 10px;;
 }
 #footerDiv{
   display: flex;
@@ -69,3 +73,13 @@ footer {
   width: 30%;
 }
 
+#bold {
+  font-weight: bold;
+}
+
+#footerImages img {
+  width: 150px;
+  height: 150px;
+  margin-left: 35px;
+  margin-top: 25px;
+}
