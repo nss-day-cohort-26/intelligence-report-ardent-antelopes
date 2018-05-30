@@ -1,0 +1,8 @@
+.news-feed-highlights-list li {
+    display: inline;
+}
+
+.news-feed-highlights-list li span {
+    font-weight: 900;
+  
+}
