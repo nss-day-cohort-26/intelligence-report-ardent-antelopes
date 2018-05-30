@@ -57,3 +57,11 @@ a:visited {
 a:hover {
     color: firebrick;
 }
+
+#mugshot {
+    text-align: center;
+}
+
+img {
+    width: 20vw;
+}
