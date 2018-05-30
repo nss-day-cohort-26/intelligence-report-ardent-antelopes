@@ -88,10 +88,6 @@ a:visited {
     padding: 10px;
 
   }
-
-  nav ul li {
-    font-size: 1.25em;
-  }
     
   article {
       margin: 4.5em 0.1em 0.1em;
@@ -114,7 +110,6 @@ a:visited {
   #mugshot img {
     margin: auto;
   }
-
 
 }
 
@@ -182,9 +177,12 @@ footer {
     }
 }
 
-@media(max-width: 660px){
+@media(max-width: 680px){
     nav{
         height: 80px;
+    }
+    h1{
+        margin-top: 60px;
     }
 }
 
@@ -198,8 +196,17 @@ footer {
     nav {
         height: 90px;
     }
+    h1{
+        margin-top: 80px;
+    }
     nav ul{
         margin: 0;
         padding: 0;
+    }
+}
+
+@media(max-width: 480px){
+    h1{
+        margin-top: 90px;
     }
 }
