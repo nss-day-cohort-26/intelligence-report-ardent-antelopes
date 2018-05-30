@@ -74,10 +74,40 @@ a:visited {
   color: tan;
 }
 
-#mugshot {
-  text-align: center;
+footer {
+  height: 225px;
+  width: 101.2%;
+  margin: 0px;
+  margin-top: 75px;
+  background-color: olive;
+  position: relative;
+  top: 20px;
+  right: 10px;;
+}
+#footerDiv{
+  display: flex;
 }
 
-img {
-  width: 20vw;
+#footerLinks {
+  margin: 35px;
+  width: 30%;
 }
+
+#bold {
+  font-weight: bold;
+}
+
+#footerImages img {
+  width: 150px;
+  height: 150px;
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+#mugshot {
+  text-align: center;
+ }
+ 
+ img {
+  width: 20vw;
+ }
