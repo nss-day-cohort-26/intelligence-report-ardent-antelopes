@@ -7,6 +7,24 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+body::after {
+    content: "";
+    background-image: url("top-secret.jpg");
+    position: fixed;
+    background-size: 20%;
+    /* background-repeat: no-repeat; */
+    background-position: center center;
+    opacity: .05;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px; */
+}
+
 article {
     margin: .5em 2em;
     padding: 1.5em;
@@ -58,10 +76,39 @@ a:hover {
     color: firebrick;
 }
 
+color: tan;
+
+}
+footer {
+    height: 225px;
+    width: 101.2%;
+    margin: 0px;
+    margin-top: 75px;
+    background-color: olive;
+    position: relative;
+    top: 20px;
+    right: 10px;
+    ;
+}
+#footerDiv {
+    display: flex;
+}
+#footerLinks {
+    margin: 35px;
+    width: 30%;
+}
+#bold {
+    font-weight: bold;
+}
+#footerImages img {
+    width: 150px;
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 25px;
+}
 #mugshot {
     text-align: center;
 }
-
 img {
     width: 20vw;
 }
