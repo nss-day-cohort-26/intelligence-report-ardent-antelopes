@@ -53,3 +53,19 @@ a {
 a:visited {
   color: tan;
 }
+
+footer {
+  height: 225px;
+  margin: 0px;
+  margin-top: 75px;
+  background-color: olive;
+}
+#footerDiv{
+  display: flex;
+}
+
+#footerLinks {
+  margin: 35px;
+  width: 30%;
+}
+
